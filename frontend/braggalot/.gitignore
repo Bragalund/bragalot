@@ -21,3 +21,7 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Common node modules locations
+frontend/node_modules
+frontend/wwwroot/node_modules
