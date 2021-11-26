@@ -1,12 +1,14 @@
 using Xunit;
 
-namespace bragapi_tests;
-
-public class UnitTest1
+namespace bragapi_tests
 {
-    [Fact]
-    public void Test1()
-    {
 
+    public class UnitTest1
+    {
+        [Fact]
+        public void Test1()
+        {
+
+        }
     }
 }
