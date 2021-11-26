@@ -1,11 +1,11 @@
-# Bragalund Blog  
+# Sample project
 
-A blog i can create blogposts for.  
+A sample project for creating .net and vue projects.  
 
 ## Frontend  
 
-In Vue with a CMS framework.  
+In Vue.
 
 ## Backend  
 
-Dont know if i need it yet...
+.Net 6
