@@ -12,7 +12,7 @@ In Vue.
 
 ## TODO  
 
-* [ ] Make request from frontend to backend and display information  
+* [x] Make request from frontend to backend and display information  
 * [ ] Create working DockerCompose-file  
 * [ ] Make pipeline fail if codecoverage is less than 80 percent  
 * [ ] Install Cypress and create 1 test for checking that first page returns 200 ok   
