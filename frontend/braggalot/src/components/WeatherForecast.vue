@@ -1,7 +1,7 @@
 <template>
 <p>This is the weatherforecasts</p>
   <article v-for="forecast in forecasts" :key="forecast.id">
-    <p>{{ forecast.summary }}</p>
+    <p>{{ forecast.summary }} {{ forecast.temperatureC }}</p>
   </article>
 </template>
 
