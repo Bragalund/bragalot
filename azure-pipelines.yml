@@ -7,18 +7,20 @@ steps:
   displayName: Build and Push Frontend
   inputs:
     containerRegistry: 'dockerRegistryServiceConnection1'
-    repository: 'bragalund/bragalund-public:frontend'
+    repository: 'bragalund/bragalund-public'
     command: 'buildAndPush'
     Dockerfile: 'frontend/Dockerfile'
+    tags: 'frontend'
     
 - task: Docker@2
   displayName: Build and Push Backend
   inputs:
     containerRegistry: 'dockerRegistryServiceConnection1'
-    repository: 'bragalund/bragalund-public:backend'
+    repository: 'bragalund/bragalund-public'
     command: 'buildAndPush'
     Dockerfile: 'backend/Dockerfile'
-
+    tags: 'backend'
+    
 - task: Docker@2
   displayName: Logout of ACR
   inputs:
